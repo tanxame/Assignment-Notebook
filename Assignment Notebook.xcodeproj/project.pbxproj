@@ -13,6 +13,8 @@
 		150814F226B1C4B900660A82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150814F126B1C4B900660A82 /* Preview Assets.xcassets */; };
 		150814FD26B1C4BA00660A82 /* Assignment_NotebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150814FC26B1C4BA00660A82 /* Assignment_NotebookTests.swift */; };
 		1508150826B1C4BA00660A82 /* Assignment_NotebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1508150726B1C4BA00660A82 /* Assignment_NotebookUITests.swift */; };
+		1508151626B1CA4100660A82 /* AssignmentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1508151526B1CA4100660A82 /* AssignmentList.swift */; };
+		1508151826B1CD4E00660A82 /* AddAssignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1508151726B1CD4E00660A82 /* AddAssignmentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		1508150326B1C4BA00660A82 /* Assignment NotebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment NotebookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1508150726B1C4BA00660A82 /* Assignment_NotebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_NotebookUITests.swift; sourceTree = "<group>"; };
 		1508150926B1C4BA00660A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1508151526B1CA4100660A82 /* AssignmentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentList.swift; sourceTree = "<group>"; };
+		1508151726B1CD4E00660A82 /* AddAssignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAssignmentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				150814EA26B1C4B300660A82 /* Assignment_NotebookApp.swift */,
 				150814EC26B1C4B300660A82 /* ContentView.swift */,
+				1508151726B1CD4E00660A82 /* AddAssignmentView.swift */,
+				1508151526B1CA4100660A82 /* AssignmentList.swift */,
 				150814EE26B1C4B900660A82 /* Assets.xcassets */,
 				150814F326B1C4B900660A82 /* Info.plist */,
 				150814F026B1C4B900660A82 /* Preview Content */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1508151626B1CA4100660A82 /* AssignmentList.swift in Sources */,
 				150814ED26B1C4B300660A82 /* ContentView.swift in Sources */,
 				150814EB26B1C4B300660A82 /* Assignment_NotebookApp.swift in Sources */,
+				1508151826B1CD4E00660A82 /* AddAssignmentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
