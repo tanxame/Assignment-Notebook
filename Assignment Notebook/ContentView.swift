@@ -35,6 +35,7 @@ struct ContentView: View {
                 AddAssignmentView(assignmentList: assignmentList)
             })
             .navigationBarTitle("Assignment Notebook", displayMode: .inline)
+            .foregroundColor(.purple)
             .navigationBarItems(leading: EditButton(),
                                 trailing: Button(action: {
                                                     showingAddAssignmentView = true }) {
