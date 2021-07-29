@@ -15,7 +15,7 @@ struct ContentView: View {
             List {
                 ForEach(assignmentList.assignments) { assignment in
                     HStack {
-                        VStack {
+                        VStack (alignment: .leading){
                             Text(assignment.course)
                                 .font(.headline)
                             Text(assignment.description)
@@ -44,7 +44,7 @@ struct ContentView: View {
     }
 }
 
-struct AssignmentItem: Identifiable {
+struct AssignmentItem: Identifiable, Codable {
     var id = UUID()
     var description = String()
     var course = String()
